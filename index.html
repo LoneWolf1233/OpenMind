@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>OpenMind-The Center of Knowledge</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"> </a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-window-close" onclick="hideMenu()"></i>
+
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="E:\OpenMind\books\books.html">BOOKS</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+
+
+		</nav>
+<div class="text-box">
+	<h1>Welcome to the Biggest e-Library in the World</h1>
+	<p>Finding any book in electronic form is now easy.</p>
+	<a href="E:\OpenMind\books\books.html" class="hero-btn">Explore</a>
+</div>
+
+	</section>
+
+<section class="goals">
+	<h1>Our Goals</h1>
+	<p>We only have ONE goal: To make knowledge accesible to anyone and everywhere. You only need an internet connection. </p>
+</section>
+
+
+<div class="footer">
+	<h3>@Copyright OpenMind 2024-All Rights Reserved. </h3>
+</div>	
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu---------->
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu() {
+		navLinks.style.right = "0"
+	}
+	function hideMenu() {
+		navLinks.style.right = "-200px"
+	}
+
+
+
+</script>
+
+
+
+</body>
+</html>>
